@@ -37,9 +37,6 @@
     margin-top: 10px;
   }
 
-.carousel {
-  height: 500px; /* Ajusta la altura según tus necesidades */
-}
 
 @media (max-width: 576px) {
     .navbar-nav {
