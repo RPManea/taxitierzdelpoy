@@ -61,6 +61,18 @@
 }
 
 
+.redes-sociales {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.redes-sociales img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
 
 @media (max-width: 576px) {
     .navbar-nav {
