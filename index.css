@@ -96,7 +96,7 @@
 }
 
 .btn-linkedin:hover {
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   background-color: #0077B5;
   border-color: #0077B5;
 }
