@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="indexv1.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-l/YGBneBqhN8O1wJccjsUr/5MTp9XHf8z0WgA/C+oiO1KfOvDB8qWywSYiPmZufGh9v9lkWky8+tQDjKNoGBzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="icon" type="image/x-icon" href="img/taxi-tierz-low-resolution-logo-color-on-transparent-background.png">
+  <script src="cookie-banner.js"></script>
   <style>
     /* Estilos adicionales para el formulario */
     .form-group label {
@@ -46,8 +47,10 @@
     </style>
 </head>
 <body>
-  <script src="cookie-banner.js"></script>
-  
+  <div id="cookie-popup">
+    <p>Este sitio web utiliza cookies para mejorar la experiencia del usuario. Al utilizar nuestro sitio web, acepta todas las cookies de acuerdo con nuestra Política de cookies.</p>
+    <button id="cookie-accept">Aceptar</button>
+  </div>
     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
         <a class="navbar-brand" href="index.html">
             <img src="img/taxi-tierz-low-resolution-logo-color-on-transparent-background.png" width="100" height="60">
@@ -206,12 +209,5 @@
           </div>
         </div>
       </div>
-    </div>
-    <!-- Aviso de cookies -->
-    <div id="cookie-banner" class="hidden">
-      <p>Utilizamos cookies para mejorar su experiencia en nuestro sitio web. Al continuar navegando por este sitio, acepta nuestro uso de cookies.</p>
-      <button id="accept-btn">Aceptar</button>
-      <button id="more-info-btn"><a href="https://www.iubenda.com/privacy-policy/26311190" class="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Más información</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script></button>
-    </div>
 </footer>
 </html>
