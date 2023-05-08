@@ -112,3 +112,9 @@
       margin-left: 75px;
     }
   }
+
+  @media (prefers-color-scheme: dark) {
+    .btn-linkedin {
+      color: #0077B5 !important;
+    }
+  }
